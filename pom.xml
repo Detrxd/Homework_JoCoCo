@@ -46,7 +46,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>Check-code</id>
+                        <id>Checking</id>
                         <phase>verify</phase>
                         <goals>
                             <goal>check</goal>
@@ -66,13 +66,13 @@
                     </dependency>
                 </dependencies>
                 <executions>
-                <execution>
-                    <id>prepare-agent-1123</id>
-                    <phase>verify</phase>
-                    <goals>
-                        <goal>check</goal>
-                    </goals>
-                </execution>
+                    <execution>
+                        <id>prepare-agent-1123</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
             <plugin>
